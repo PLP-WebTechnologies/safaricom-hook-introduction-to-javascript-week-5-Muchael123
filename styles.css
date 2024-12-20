@@ -1,0 +1,123 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  /* Calculator and Voting Section */
+  .calculator, .voting, .greeting {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calculator input,
+  .voting input,
+  .greeting input {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .calculator button,
+  .voting button,
+  .greeting button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .calculator button:hover,
+  .voting button:hover,
+  .greeting button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling the list of numbers */
+  ol {
+    list-style-type: decimal;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  
+  li {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
+  /* Styling the voting eligibility message */
+  #voting-eligibility {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Styling the greeting message */
+  #greeting {
+    font-size: 1.5em;
+    color: #4CAF50;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  
+    header {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  
+    ol {
+      padding-left: 10px;
+    }
+  
+    li {
+      font-size: 1em;
+    }
+  }
+  

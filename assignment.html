@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PLP js</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>PLP JavaScript Assignment</h1>
+      <p>PLP JavaScript is fun!</p>
+    </header>
+
+    <div id="dynamic-content"></div>
+
+    <!-- Calculator Input Section -->
+    <div class="calculator">
+      <h2>Calculator</h2>
+      <input type="number" id="firstNumber" placeholder="Enter the first number" />
+      <input type="number" id="secondNumber" placeholder="Enter the second number" />
+      <input type="text" id="operation" placeholder="Choose operation (+, -, *, /)" />
+      <button onclick="calculate()">Calculate</button>
+      <div id="calc-result"></div>
+    </div>
+
+    <!-- Voting Eligibility Section -->
+    <div class="voting">
+      <h2>Voting Eligibility</h2>
+      <input type="number" id="age" placeholder="Enter your age" />
+      <button onclick="checkVotingEligibility()">Check Eligibility</button>
+      <div id="voting-eligibility"></div>
+    </div>
+
+    <!-- Greeting Section -->
+    <div class="greeting">
+      <h2>Greet User</h2>
+      <input type="text" id="userName" placeholder="Enter your name" />
+      <button onclick="greetUserInput()">Greet</button>
+      <div id="greeting"></div>
+    </div>
+
+    <!-- Display Numbers 1 to 10 -->
+    <div class="number-list">
+      <h2>Numbers 1 to 10</h2>
+      <ol id="number-list"></ol>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
